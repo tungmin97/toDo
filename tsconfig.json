@@ -1,0 +1,18 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "skipLibCheck": true    ,
+    "strict":true    ,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["DOM","ESNext"],
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "resolveJsonModule": true
+    /* Skip type checking all .d.ts files. */
+  }
+}
