@@ -17,7 +17,7 @@ export default function TaskInput({addTask}: TaskInputProps) {
     <View className="p-2 px-3 flex-row items-center bg-slate-700 shadow-lg">
       <TextInput
         value={task}
-        placeholder="Add new todo..."
+        placeholder="Add new task..."
         placeholderTextColor={'#E1E1E6'}
         returnKeyType="send"
         onChangeText={setTask}
